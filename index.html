@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Kanban To-Do</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+
+	<h2 style="text-align: center; padding: 10px;">Kanban To-Do List</h2>
+
+	<div id="bg">
+	</div>
+	<div id="board">
+		<div class="container">
+			<div class="add-card">
+				<input  type="text" autocomplete="off"  id='to-do-input'>
+				<button onclick="addNewCard()">Add</button>
+			</div>
+		</div>
+		<div class="board-canvas">
+
+			<div class="boardlist">
+
+				<div class="list-heading">
+					<h3 class="list-title">To Do</h3>
+				</div>
+				<div class="list" id='to-do'>
+
+				</div>
+			</div>
+
+			<div class="boardlist">
+				<div class="list-heading">
+					<h3 class="list-title">In Progress</h3>
+				</div>
+				<div class="list" id="in-progress">
+
+				</div>
+			</div>
+
+			<div class="boardlist">
+				<div class="list-heading">
+					<h3 class="list-title">Completed</h3>
+				</div>
+				<div class="list" id='completed'>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+		integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
