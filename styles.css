@@ -28,15 +28,16 @@
     user-select: none;
     height: 100%;
     width: 300px;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     border-radius: 5px;
+    background: #796fd41f;
   }
 
 
 
   .list{
-    min-height: 100px;
+    min-height: 30px;
   }
   
   .list-heading{
